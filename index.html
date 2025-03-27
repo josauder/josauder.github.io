@@ -71,8 +71,54 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr onmouseout="coralscapes_stop()" onmouseover="coralscapes_start()">
+                <!--bgcolor="#ffffd0">-->
+                <td style="padding:20px;width:35%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='coralscapes_image'><video width=100% height=100% muted autoplay
+                        loop>
+                        <source src="images/coralscapes.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                    <img src='images/coralscapes_img.png' width=100%>
+                  </div>
+                  <script type="text/javascript">
+                    function coralscapes_start() {
+                      document.getElementById('coralscapes_image').style.opacity = "1";
+                    }
 
+                    function coralscapes_stop() {
+                      document.getElementById('coralscapes_image').style.opacity = "0";
+                    }
+                    coralscapes_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://josauder.github.io/coralscapes/">
+                    <span class="papertitle">The Coralscapes Dataset: Semantic Scene Understanding in Coral Reefs
+                    </span>
+                  </a>
+                  <br>
+                  <strong>Jonathan Sauder</strong>,
+                  <a href="https://scholar.google.com/citations?user=SuIUw7gAAAAJ">Viktor Domazetoski</a>,
+                  <a href="https://scholar.google.com/citations?user=ApxnBkYAAAAJ">Guilhem Banc-Prandi</a>,
+                  <a href="https://scholar.google.com/citations?user=W5cZVtQAAAAJ">Gabriela Perna</a>,
+                  <a href="https://scholar.google.com/citations?user=6sXSYJMAAAAJ">Anders Meibom</a>,
+                  <a href="https://scholar.google.com/citations?user=p3iJiLIAAAAJ">Devis Tuia</a>
 
+                  <br>
+                  <em>Preprint</em>, 2025 &nbsp
+                  <!--<font color="red"><strong>(Oral)</strong></font>-->
+                  <br>
+                  <a href="https://josauder.github.io/coralscapes/">Project Page</a>
+                  /
+                  <a href="https://arxiv.org/pdf/2503.20000">ArXiv</a>
+                  <p></p>
+                  <p>
+                    The first large-scale dense semantic segmentation dataset in coral reefs.
+                  </p>
+                </td>
+              </tr>
               <tr onmouseout="backscatternet_causticsnet_stop()" onmouseover="backscatternet_causticsnet_start()">
                 <!--bgcolor="#ffffd0">-->
                 <td style="padding:20px;width:35%;vertical-align:middle">
