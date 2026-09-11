@@ -63,6 +63,67 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr onmouseout="coralscapesv2_stop()" onmouseover="coralscapesv2_start()">
+                <!--bgcolor="#ffffd0">-->
+                <td style="padding:20px;width:35%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='coralscapesv2_image'><video width=100% height=100% muted autoplay
+                        loop>
+                        <source src="images/coralscapesv2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video></div>
+                    <img src='images/coralscapesv2_img.png' width=100%>
+                  </div>
+                  <script type="text/javascript">
+                    function coralscapesv2_start() {
+                      document.getElementById('coralscapesv2_image').style.opacity = "1";
+                    }
+
+                    function coralscapesv2_stop() {
+                      document.getElementById('coralscapesv2_image').style.opacity = "0";
+                    }
+                    coralscapesv2_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://josauder.github.io/coralscapesv2/">
+                    <span class="papertitle">CoralscapesV2: Panoptic and Fine-Grained Visual Scene Understanding in Coral Reefs
+                    </span>
+                  </a>
+                  <br>
+                  <strong>Jonathan Sauder</strong>,
+                  <a href="https://thomasruckli.ch/">Thomas Ruckli</a>,
+                  <a href="https://www.linkedin.com/in/gabriele-strodomskyte-10832824b/">Gabrielė Strodomskytė</a>,
+                  <a href="https://www.linkedin.com/in/ibrahim-souleiman-abdallah-928238151/">Ibrahim Souleiman Abdallah</a>,
+                  Rahma Hassan Abdi,
+                  Djama Goumaneh Awaleh,
+                  Mohamed Houssein Farah,
+                  <a href="https://www.linkedin.com/in/moustapha-nour-4a3198166/">Moustapha Nour</a>,
+                  <a href="https://scholar.google.com/citations?user=lIvskLsAAAAJ">Osama Sharhubil Saad</a>,
+                  <a href="https://www.linkedin.com/in/mustafa-khalafallah-6204b5331/">Mustafa Mohammed Khalafallah Altaib</a>,
+                  Maysoon Kteifan,
+                  <a href="https://www.linkedin.com/in/farah-alsoqi0/en/">Farah Alsoqi</a>,
+                  Eyad Zgool,
+                  <a href="https://www.linkedin.com/in/jafar-al-omari-67103032/">Jafar Al-Omari</a>,
+                  Temesgen Gebremeskel Gebreluel,
+                  Zekaria Zekeria Abdulkerim,
+                  Meron Ghirmay,
+                  Teklehaimanot Beraki,
+                  <a href="https://scholar.google.com/citations?user=p3iJiLIAAAAJ">Devis Tuia</a>,
+                  <a href="https://scholar.google.com/citations?user=ApxnBkYAAAAJ">Guilhem Banc-Prandi</a>
+                  <br>
+                  <em>ECCV Workshop on Marine Vision</em>, 2026 &nbsp
+                  <!--<font color="red"><strong>(Oral)</strong></font>-->
+                  <br>
+                  <a href="https://josauder.github.io/coralscapesv2/">Project Page</a>
+                  /
+                  <a href="https://huggingface.co/datasets/josauder/coralscapesV2">Dataset</a>
+                  <p></p>
+                  <p>
+                    The first panoptic segmentation dataset for coral reefs, extending Coralscapes to 95 fine-grained classes and 65k exhaustive, video-annotated fish instance masks.
+                  </p>
+                </td>
+              </tr>
                 <tr onmouseout="scirep_stop()" onmouseover="scirep_start()">
                 <!--bgcolor="#ffffd0">-->
                 <td style="padding:20px;width:35%;vertical-align:middle">
